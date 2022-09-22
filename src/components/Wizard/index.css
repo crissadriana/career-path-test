@@ -1,0 +1,20 @@
+.wizard {
+  max-width: 40.625rem;
+  margin: 0 auto;
+  padding: 6% 2rem 3%;
+}
+
+.wizard-instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.wizard-instructions p {
+  margin-bottom: 0;
+}
+
+.wizard-instructions-icon {
+  margin-right: .375rem;
+}

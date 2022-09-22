@@ -1,0 +1,94 @@
+.card-content p {
+  margin-bottom: 0;
+}
+
+/* Card with icon */
+
+.card--withIcon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.card--withIcon .card-content {
+  padding: .9375rem 3.125rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-light-grey);
+  box-shadow: var(--box-shadow-primary);
+  background-color: var(--color-white);
+}
+
+.card--withIcon .card-image {
+  width: 4.5rem;
+  min-width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  border: 3px solid var(--color-black);
+  background-color: var(--color-white-shade);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(50%);
+  margin-left: -2.25rem;
+  position: relative;
+}
+
+.card--withIcon .card-content {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card--withIcon  .card-highlight {
+  font-weight: 600;
+}
+
+/* Card with image */
+
+.card--withImage {
+  border-radius: 1.9375rem;
+  border: 1px solid var(--color-light-grey);
+  box-shadow: var(--box-shadow-secondary);
+}
+
+.card--withImage .card-image {
+  background-color: var(--color-orange);
+  border-radius: inherit;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card--withImage .card-image img {
+  max-width: 100%;
+}
+
+.card--withImage .card-content {
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card--withImage .card-highlight {
+  font-weight: 500;
+}
+
+/* Colored cards */
+
+.card--orange .card-image {
+  border-color: var(--color-orange);
+  background-color: var(--color-orange-shade);
+}
+
+.card--light-orange .card-image {
+  border-color: var(--color-light-orange);
+  background-color: var(--color-light-orange-shade);
+}
+
+.card--purple .card-image {
+  border-color: var(--color-purple);
+  background-color: var(--color-purple-shade);
+}

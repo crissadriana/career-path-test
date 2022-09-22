@@ -1,0 +1,30 @@
+.progress {
+  padding: 1.5625rem 2.1875rem;
+  display: flex;
+  align-items: center;
+}
+
+.progress-title {
+  margin: 0 1.25rem 0 0;
+}
+
+.progress-page {
+  font-weight: 500;
+}
+
+.progress-bar {
+  width: 19.6875rem;
+  height: 1.25rem;
+  position: relative;
+  background-color: var(--color-white-shade);
+  border-radius: var(--border-radius);
+}
+
+.progress-value {
+  width: 0;
+  height: 100%;
+  display: block;
+  border-radius: inherit;
+  background-color: var(--color-green);
+  transition: all .2s ease-in-out;
+}

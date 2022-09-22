@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: none;
+  min-width: 12.5rem;
+  font-size: var(--font-size-paragraph-sm);
+  font-weight: 600;
+  padding: .9375rem;
+}
+
+.button:not([disabled]) {
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: .6;
+}
+
+.button--primary {
+  color: var(--color-white);
+  background-color: var(--color-orange);
+}

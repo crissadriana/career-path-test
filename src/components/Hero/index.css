@@ -1,0 +1,30 @@
+.hero {
+  background-color: var(--color-white-shade);
+  min-height: 30vh;
+  padding: 1.25rem 0 3.125rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hero-image {
+  max-width: 35%;
+}
+
+.hero-image img {
+  max-width: 100%;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 5.625rem;
+}
+
+.hero-subtitle {
+  margin: 0;
+}
